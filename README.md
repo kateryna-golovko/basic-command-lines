@@ -15,5 +15,14 @@ The repository that contains instructions for using git commands, and other impo
 ## Navigate Terminal:
 
 - cd
+- cd ..
 - ls 
+
+### Python Virtual Environment:
+In Windows PowerShell:
+#### Create:
+python3 -m venv venv
+#### Activate:
+cd venv
+.\Scripts\Activate
 
