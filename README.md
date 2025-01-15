@@ -9,8 +9,8 @@ The repository that contains instructions for using git commands, and other impo
 - git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 - git add .
-- git push --set-upstream origin ~branch name~
-- git commit -m '~comment~'
+- git push --set-upstream origin \branch name\
+- git commit -m '\comment\'
 
 ## Navigate Terminal:
 
