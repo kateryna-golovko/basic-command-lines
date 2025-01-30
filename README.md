@@ -1,16 +1,17 @@
-# basic-command-lines
+# Github Commands and other Useful Reminders
 The repository that contains instructions for using git commands, and other important reminders.
 
 ## Git Instructions:
 
-- git clone
-- git branch
-- git branch -m \branch name\
-- git config --global user.email "you@example.com"
+- git clone - clone the repo to the local repo
+- git branch - check which branch are you using at the moment
+- git branch -m \branch name\ - choose the branch you want to work on
+- git config --global user.email "you@example.com" 
   git config --global user.name "Your Name"
-- git add .
-- git push --set-upstream origin \branch name\
-- git commit -m '\comment\'
+  ### To push changes from local repository to GitHub:
+- git add . - adds all changes ("." - "all" part)
+- git commit -m '\comment\' - commit changes with a comment 
+- git push --set-upstream origin \branch name\ - push changes from local repo to GitHub
 
 ## Navigate Terminal:
 
