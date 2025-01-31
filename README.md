@@ -12,6 +12,14 @@ The repository that contains instructions for using git commands, and other impo
 - git add . - adds all changes ("." - "all" part)
 - git commit -m '\comment\' - commit changes with a comment 
 - git push --set-upstream origin \branch name\ - push changes from local repo to GitHub
+  ### Working with branches:
+- git checkout -b new-branch - Create a New Branch
+- git add; git commit -m "Your commit message" - Make Changes and Commit
+- git push origin new-branch - Push the Branch to the Remote Repository
+- git push -u origin branch-name -  if the branch already exists on the remote repository - set the upstream tracking branch if it’s the first time you’re pushing
+- push origin --delete branch-name - delete a remote branch
+- git branch -m new-branch-name - rename a local branch
+- git checkout branch-name - switch to a different branch
 
 ## Navigate Terminal:
 
