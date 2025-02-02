@@ -35,3 +35,7 @@ python3 -m venv venv
 cd venv
 .\Scripts\Activate
 
+### Markdown:
+** - Italic
+*()* - Bold
+
