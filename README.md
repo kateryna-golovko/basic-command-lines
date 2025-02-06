@@ -17,9 +17,11 @@ The repository that contains instructions for using git commands, and other impo
 - git add; git commit -m "Your commit message" - Make Changes and Commit
 - git push origin new-branch - Push the Branch to the Remote Repository
 - git push -u origin branch-name -  if the branch already exists on the remote repository - set the upstream tracking branch if it’s the first time you’re pushing
-- push origin --delete branch-name - delete a remote branch
+- git push origin --delete branch-name - delete a remote branch
 - git branch -m new-branch-name - rename a local branch
 - git checkout branch-name - switch to a different branch
+
+  *Note that  Github does not support creation of an empty folder within repository, so need to create a file within the folder at the same time as the folder creation.*
 
 ## Navigate Terminal:
 
@@ -28,6 +30,7 @@ The repository that contains instructions for using git commands, and other impo
 - ls - list the files/folders inside the current folder
 - mkdir *name of the folder* - create a folder
 - rm/rmdir *name of the folder* - delete a folder
+- ni *name of the file* - create a new file
 
 ## Python Virtual Environment:
 
