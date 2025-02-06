@@ -1,5 +1,5 @@
 # Github Commands and other Useful Reminders
-The repository that contains instructions for using git commands, and other important reminders.
+The repository that contains instructions for using git commands, and other important reminders that I would like to access fast.
 
 ## Git Instructions:
 
@@ -23,19 +23,22 @@ The repository that contains instructions for using git commands, and other impo
 
 ## Navigate Terminal:
 
-- cd
-- cd ..
-- ls 
+- cd *name of the folder* - enter the folder 
+- cd .. - leave the current folder
+- ls - list the files/folders inside the current folder
+- mkdir *name of the folder* - create a folder
+- rm/rmdir *name of the folder* - delete a folder
 
-### Python Virtual Environment:
+## Python Virtual Environment:
+
 In Windows PowerShell:
-#### Create:
+### Create:
 python3 -m venv venv
-#### Activate:
+### Activate:
 cd venv
 .\Scripts\Activate
 
-### Markdown:
+## Markdown:
 ** - Italic
 *()* - Bold
 
