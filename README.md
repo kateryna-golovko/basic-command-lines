@@ -21,6 +21,8 @@ The repository that contains instructions for using git commands, and other impo
 - git branch -m new-branch-name - rename a local branch
 - git checkout branch-name - switch to a different branch
 
+  *Note that  Github does not support creation of an empty folder within repository, so need to create a file within the folder at the same time as the folder creation.*
+
 ## Navigate Terminal:
 
 - cd *name of the folder* - enter the folder 
