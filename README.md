@@ -8,11 +8,18 @@ The repository that contains instructions for using git commands, and other impo
 - git branch -m \branch name\ - choose the branch you want to work on
 - git config --global user.email "you@example.com"
 - git config --global user.name "Your Name"
-- git push origin HEAD: \branch name
+
   ### To push changes from local repository to GitHub:
 - git add . - adds all changes ("." - "all" part)
 - git commit -m '\comment\' - commit changes with a comment 
 - git push --set-upstream origin \branch name\ - push changes from local repo to GitHub
+- git push origin HEAD: \branch name
+
+- git fetch origin - Fetch the latest changes from the remote repository
+- git checkout \branch name\ - Switch to your sql-queries branch
+- git pull origin \branch name\ - Pull the latest changes
+- git push origin \branch name\ - Push the latest changes
+  
   ### Working with branches:
 - git checkout -b new-branch - Create a New Branch
 - git add; git commit -m "Your commit message" - Make Changes and Commit
