@@ -6,8 +6,9 @@ The repository that contains instructions for using git commands, and other impo
 - git clone - clone the repo to the local repo
 - git branch - check which branch are you using at the moment
 - git branch -m \branch name\ - choose the branch you want to work on
-- git config --global user.email "you@example.com" 
-  git config --global user.name "Your Name"
+- git config --global user.email "you@example.com"
+- git config --global user.name "Your Name"
+- git push origin HEAD: \branch name
   ### To push changes from local repository to GitHub:
 - git add . - adds all changes ("." - "all" part)
 - git commit -m '\comment\' - commit changes with a comment 
