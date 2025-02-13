@@ -13,7 +13,8 @@ The repository that contains instructions for using git commands, and other impo
 - git add . - adds all changes ("." - "all" part)
 - git commit -m '\comment\' - commit changes with a comment 
 - git push --set-upstream origin \branch name\ - push changes from local repo to GitHub
-- git push origin HEAD: \branch name
+- git push origin HEAD: \branch name - to push to the branch of that name on the remote
+- git push origin HEAD - to push to the branch of the same name as local branch on the remote
 
 - git fetch origin - Fetch the latest changes from the remote repository
 - git checkout \branch name\ - Switch to your sql-queries branch
